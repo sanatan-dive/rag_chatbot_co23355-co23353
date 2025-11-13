@@ -1,0 +1,119 @@
+{
+  "description": "Benchmark dataset for evaluating RAG system performance on technical documentation",
+  "domain": "Machine Learning and NLP",
+  "total_qa_pairs": 15,
+  "difficulty_levels": ["easy", "medium", "hard"],
+  "test_cases": [
+    {
+      "id": 1,
+      "question": "What is the purpose of a RAG system?",
+      "ground_truth": "A RAG (Retrieval-Augmented Generation) system combines information retrieval with language generation to answer questions based on specific documents or knowledge bases, providing more accurate and contextually relevant responses than standalone language models.",
+      "difficulty": "easy",
+      "topic": "RAG_basics"
+    },
+    {
+      "id": 2,
+      "question": "What are the main components of a RAG pipeline?",
+      "ground_truth": "The main components of a RAG pipeline are: (1) Document loader for ingesting data, (2) Text splitter for chunking documents, (3) Embedding model for vectorizing text, (4) Vector store for efficient similarity search, (5) Retriever for finding relevant chunks, and (6) Language model for generating responses.",
+      "difficulty": "medium",
+      "topic": "RAG_architecture"
+    },
+    {
+      "id": 3,
+      "question": "Why is text chunking important in RAG systems?",
+      "ground_truth": "Text chunking is important because it breaks large documents into smaller, manageable pieces that fit within the context window of language models. It enables more precise retrieval of relevant information and improves the quality of generated responses by focusing on specific content sections.",
+      "difficulty": "medium",
+      "topic": "preprocessing"
+    },
+    {
+      "id": 4,
+      "question": "What is the role of embeddings in RAG?",
+      "ground_truth": "Embeddings convert text into dense vector representations that capture semantic meaning. In RAG systems, embeddings enable similarity search by representing both document chunks and user queries in the same vector space, allowing the system to find the most relevant context for answering questions.",
+      "difficulty": "medium",
+      "topic": "embeddings"
+    },
+    {
+      "id": 5,
+      "question": "What is FAISS and why is it used?",
+      "ground_truth": "FAISS (Facebook AI Similarity Search) is a library for efficient similarity search and clustering of dense vectors. It's used in RAG systems to quickly find the most similar document chunks to a query embedding, enabling fast retrieval even with large document collections.",
+      "difficulty": "easy",
+      "topic": "vector_databases"
+    },
+    {
+      "id": 6,
+      "question": "How does semantic search differ from keyword search?",
+      "ground_truth": "Semantic search uses vector embeddings to understand the meaning and context of queries and documents, finding conceptually similar content even with different wording. Keyword search relies on exact word matches and may miss relevant results that use different terminology.",
+      "difficulty": "medium",
+      "topic": "search_methods"
+    },
+    {
+      "id": 7,
+      "question": "What is the T5 model?",
+      "ground_truth": "T5 (Text-to-Text Transfer Transformer) is a transformer-based language model that frames all NLP tasks as text-to-text problems. It's pre-trained on a large corpus and can be fine-tuned for various tasks like translation, summarization, and question answering.",
+      "difficulty": "easy",
+      "topic": "LLMs"
+    },
+    {
+      "id": 8,
+      "question": "What parameters affect the quality of retrieved chunks?",
+      "ground_truth": "Key parameters include: the number of chunks retrieved (k value), chunk size and overlap during splitting, the embedding model's quality, and the similarity search algorithm. The retrieval strategy (similarity, MMR, or threshold-based) also significantly impacts results.",
+      "difficulty": "hard",
+      "topic": "retrieval_optimization"
+    },
+    {
+      "id": 9,
+      "question": "What is the chunk overlap parameter used for?",
+      "ground_truth": "Chunk overlap ensures that information split across chunk boundaries is preserved. By having overlapping sections between consecutive chunks, the system maintains context continuity and prevents losing important information that spans multiple chunks.",
+      "difficulty": "medium",
+      "topic": "preprocessing"
+    },
+    {
+      "id": 10,
+      "question": "How can you evaluate a RAG system's performance?",
+      "ground_truth": "RAG systems can be evaluated using metrics like ROUGE and BLEU for answer quality, retrieval precision and recall for chunk relevance, semantic similarity scores, F1 scores for answer correctness, and human evaluation for overall response quality and factual accuracy.",
+      "difficulty": "hard",
+      "topic": "evaluation"
+    },
+    {
+      "id": 11,
+      "question": "What are the advantages of using local LLMs versus API-based models?",
+      "ground_truth": "Local LLMs offer data privacy, no API costs, offline availability, and full control over the model. However, they require computational resources and may have lower performance than larger API-based models like GPT-4. The choice depends on use case requirements.",
+      "difficulty": "medium",
+      "topic": "LLM_deployment"
+    },
+    {
+      "id": 12,
+      "question": "What is the purpose of prompt engineering in RAG?",
+      "ground_truth": "Prompt engineering in RAG involves designing effective system prompts that instruct the language model how to use retrieved context, handle uncertainty, format responses, and stay grounded in the provided information rather than generating unsupported claims.",
+      "difficulty": "medium",
+      "topic": "prompting"
+    },
+    {
+      "id": 13,
+      "question": "What challenges exist in RAG system implementation?",
+      "ground_truth": "Key challenges include: balancing chunk size for context vs. specificity, managing computational costs, handling contradictory information in retrieved chunks, preventing hallucinations, optimizing retrieval accuracy, and ensuring the system admits when it doesn't know an answer.",
+      "difficulty": "hard",
+      "topic": "challenges"
+    },
+    {
+      "id": 14,
+      "question": "How does temperature affect language model generation?",
+      "ground_truth": "Temperature controls randomness in text generation. Lower values (0.1-0.5) produce more deterministic, focused outputs ideal for factual tasks. Higher values (0.7-1.0) increase creativity and diversity but may reduce coherence. For RAG systems, moderate temperatures balance accuracy and fluency.",
+      "difficulty": "medium",
+      "topic": "generation_parameters"
+    },
+    {
+      "id": 15,
+      "question": "What is the difference between extractive and generative question answering?",
+      "ground_truth": "Extractive QA selects exact text spans from source documents as answers, ensuring factual accuracy but limited flexibility. Generative QA uses language models to create new text based on context, offering more natural responses but risking hallucinations or inaccuracies.",
+      "difficulty": "hard",
+      "topic": "QA_approaches"
+    }
+  ],
+  "metadata": {
+    "created_date": "2025-11-13",
+    "version": "1.0",
+    "purpose": "Academic evaluation of RAG chatbot for NLP course project",
+    "notes": "These questions test understanding of RAG concepts, implementation details, and best practices. Ground truth answers are comprehensive and should serve as reference for evaluating model outputs."
+  }
+}

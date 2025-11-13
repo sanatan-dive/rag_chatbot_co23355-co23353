@@ -1,0 +1,136 @@
+{
+  "timestamp": "2025-11-13T00:51:44.604077",
+  "experiments": [
+    "Chunk Size Comparison",
+    "Chunk Overlap Comparison",
+    "Retrieval K Comparison",
+    "Embedding Model Comparison"
+  ],
+  "total_questions": 15,
+  "results": {
+    "Chunk Size Comparison": [
+      {
+        "chunk_size": 500,
+        "chunk_overlap": 200,
+        "rouge1_f": 0.03347624918921753,
+        "rouge2_f": 0.001777777777777778,
+        "rougeL_f": 0.0231911027218244,
+        "bleu": 0.0028058014527573166,
+        "semantic_similarity": 0.21186359425385792,
+        "f1": 0.02175910155005271,
+        "inference_time": 46.433440923690796
+      },
+      {
+        "chunk_size": 1000,
+        "chunk_overlap": 200,
+        "rouge1_f": 0.03347624918921753,
+        "rouge2_f": 0.001777777777777778,
+        "rougeL_f": 0.0231911027218244,
+        "bleu": 0.0028058014527573166,
+        "semantic_similarity": 0.21186359425385792,
+        "f1": 0.02175910155005271,
+        "inference_time": 29.110136032104492
+      },
+      {
+        "chunk_size": 2000,
+        "chunk_overlap": 200,
+        "rouge1_f": 0.03347624918921753,
+        "rouge2_f": 0.001777777777777778,
+        "rougeL_f": 0.0231911027218244,
+        "bleu": 0.0028058014527573166,
+        "semantic_similarity": 0.21186359425385792,
+        "f1": 0.02175910155005271,
+        "inference_time": 30.25761890411377
+      }
+    ],
+    "Chunk Overlap Comparison": [
+      {
+        "chunk_size": 1000,
+        "chunk_overlap": 0,
+        "rouge1_f": 0.03347624918921753,
+        "rouge2_f": 0.001777777777777778,
+        "rougeL_f": 0.0231911027218244,
+        "bleu": 0.0028058014527573166,
+        "semantic_similarity": 0.21186359425385792,
+        "f1": 0.02175910155005271,
+        "inference_time": 21.915398120880127
+      },
+      {
+        "chunk_size": 1000,
+        "chunk_overlap": 100,
+        "rouge1_f": 0.03347624918921753,
+        "rouge2_f": 0.001777777777777778,
+        "rougeL_f": 0.0231911027218244,
+        "bleu": 0.0028058014527573166,
+        "semantic_similarity": 0.21186359425385792,
+        "f1": 0.02175910155005271,
+        "inference_time": 16.443370819091797
+      },
+      {
+        "chunk_size": 1000,
+        "chunk_overlap": 200,
+        "rouge1_f": 0.03347624918921753,
+        "rouge2_f": 0.001777777777777778,
+        "rougeL_f": 0.0231911027218244,
+        "bleu": 0.0028058014527573166,
+        "semantic_similarity": 0.21186359425385792,
+        "f1": 0.02175910155005271,
+        "inference_time": 14.154979944229126
+      }
+    ],
+    "Retrieval K Comparison": [
+      {
+        "k": 2,
+        "rouge1_f": 0.011746912764489083,
+        "rouge2_f": 0.0,
+        "rougeL_f": 0.011746912764489083,
+        "bleu": 0.00040251323146569737,
+        "semantic_similarity": 0.17982791153093178,
+        "f1": 0.00380952380952381,
+        "inference_time": 8.86167311668396
+      },
+      {
+        "k": 4,
+        "rouge1_f": 0.03347624918921753,
+        "rouge2_f": 0.001777777777777778,
+        "rougeL_f": 0.0231911027218244,
+        "bleu": 0.0028058014527573166,
+        "semantic_similarity": 0.21186359425385792,
+        "f1": 0.02175910155005271,
+        "inference_time": 19.1614511013031
+      },
+      {
+        "k": 8,
+        "rouge1_f": 0.05475228936936296,
+        "rouge2_f": 0.0010178117048346058,
+        "rougeL_f": 0.036126628064903035,
+        "bleu": 0.0057170370668488645,
+        "semantic_similarity": 0.261389314631621,
+        "f1": 0.0344720471671114,
+        "inference_time": 97.88216662406921
+      }
+    ],
+    "Embedding Model Comparison": [
+      {
+        "embedding_model": "all-MiniLM-L6-v2",
+        "rouge1_f": 0.03347624918921753,
+        "rouge2_f": 0.001777777777777778,
+        "rougeL_f": 0.0231911027218244,
+        "bleu": 0.0028058014527573166,
+        "semantic_similarity": 0.21186359425385792,
+        "f1": 0.02175910155005271,
+        "inference_time": 32.034225940704346
+      },
+      {
+        "embedding_model": "all-mpnet-base-v2",
+        "rouge1_f": 0.03826065944062381,
+        "rouge2_f": 0.0,
+        "rougeL_f": 0.029248265868130598,
+        "bleu": 0.0038640708136207414,
+        "semantic_similarity": 0.19248697857062022,
+        "f1": 0.03147274292236469,
+        "inference_time": 43.99314999580383
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "embedding_model":"all-MiniLM-L6-v2",
+    "rouge1_f":0.0334762492,
+    "rouge2_f":0.0017777778,
+    "rougeL_f":0.0231911027,
+    "bleu":0.0028058015,
+    "semantic_similarity":0.2118635943,
+    "f1":0.0217591016,
+    "inference_time":32.0342259407
+  },
+  {
+    "embedding_model":"all-mpnet-base-v2",
+    "rouge1_f":0.0382606594,
+    "rouge2_f":0.0,
+    "rougeL_f":0.0292482659,
+    "bleu":0.0038640708,
+    "semantic_similarity":0.1924869786,
+    "f1":0.0314727429,
+    "inference_time":43.9931499958
+  }
+]

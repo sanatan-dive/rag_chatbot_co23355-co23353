@@ -1,0 +1,35 @@
+[
+  {
+    "chunk_size":500,
+    "chunk_overlap":200,
+    "rouge1_f":0.0334762492,
+    "rouge2_f":0.0017777778,
+    "rougeL_f":0.0231911027,
+    "bleu":0.0028058015,
+    "semantic_similarity":0.2118635943,
+    "f1":0.0217591016,
+    "inference_time":46.4334409237
+  },
+  {
+    "chunk_size":1000,
+    "chunk_overlap":200,
+    "rouge1_f":0.0334762492,
+    "rouge2_f":0.0017777778,
+    "rougeL_f":0.0231911027,
+    "bleu":0.0028058015,
+    "semantic_similarity":0.2118635943,
+    "f1":0.0217591016,
+    "inference_time":29.1101360321
+  },
+  {
+    "chunk_size":2000,
+    "chunk_overlap":200,
+    "rouge1_f":0.0334762492,
+    "rouge2_f":0.0017777778,
+    "rougeL_f":0.0231911027,
+    "bleu":0.0028058015,
+    "semantic_similarity":0.2118635943,
+    "f1":0.0217591016,
+    "inference_time":30.2576189041
+  }
+]
