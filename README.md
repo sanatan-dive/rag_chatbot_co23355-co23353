@@ -1,9 +1,13 @@
 # 🤖 RAG Chatbot for Document Question Answering
 
-**CS501 Natural Language Processing - Final Project**
+**CS304 Natural Language Processing - Course Project**
 
-_Author: Sanatan Mishra_  
-_Email: contact@sanatanmishra.com_  
+**Team Members:**
+- Sanatan Sharma (Roll No: CO23355)
+- Ryanveer Singh (Roll No: CO23353)
+
+**Under the Guidance of:** Dr. Sudhakar Kumar
+
 _Date: November 2025_
 
 ---
@@ -779,7 +783,10 @@ This project successfully demonstrates a production-ready RAG system with compre
 
 ## 📝 Project Metadata
 
-- **Course**: CS501 Natural Language Processing
+- **Course**: CS304 Natural Language Processing
+- **Institution**: Government Engineering College, Bilaspur
+- **Team**: Sanatan Sharma (CO23355) & Ryanveer Singh (CO23353)
+- **Faculty Guide**: Dr. Sudhakar Kumar
 - **Project Type**: Open-ended LLM Application
 - **Implementation Language**: Python 3.11
 - **Total Lines of Code**: ~1,500
@@ -790,13 +797,12 @@ This project successfully demonstrates a production-ready RAG system with compre
 
 ## 🙏 Acknowledgments
 
-- Course instructor and TAs for guidance
+- Dr. Sudhakar Kumar for invaluable guidance and mentorship
+- Course instructor and TAs for their support
 - Hugging Face community for pre-trained models
 - LangChain developers for the excellent framework
 - Open-source contributors to all libraries used
 
 ---
 
-**For questions or contributions, please contact: contact@sanatanmishra.com**
-
-_Last Updated: November 13, 2025_
+_Last Updated: November 16, 2025_
